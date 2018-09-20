@@ -5,7 +5,7 @@ representations of an `event` (an object with two properties:
 type: string
 data: object
 
-It expects the data object to contain a PDFPath and a PNGPath properties that denote the location of a PDF file and a folder in which to store output, respectively.
+It expects the data object to contain a PDFPath and a PNGPath property that denotes the location of a PDF file and a folder in which to store output, respectively.
 
 It then converts the input PDF into one PNG image per page.
 
